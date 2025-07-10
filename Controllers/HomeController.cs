@@ -8,6 +8,17 @@ namespace ControllersAndActions.Controllers
         {
             return View();  
         }
+
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Contact()
+        {
+            return View();
+        }
+
         public string Details()
         {
             return "Welcome!";
